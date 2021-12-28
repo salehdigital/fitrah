@@ -1,11 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
 
-body{
-  background-color: #000;
+*{
+     -webkit-font-smoothing: antialiased;
+}
+  
+input, input:focus, button, button:focus, a, a:focus {
+  -webkit-appearance: none;
+    outline: none; 
 }
 
-h1,h2,h3,h4,h5,h6,a,p,span,blockquote,ul,li{
+body{
+  background-color: #141414;
+}
+
+h1,h2,h3,h4,h5,h6,a,p,span,blockquote,ul,li,button{
 font-family: 'Inter', sans-serif;
 color: white; 
-font-weight:400;
+margin: 0;
 }
+
+p{
+  line-height: 140%;
+  margin-bottom: 16px;
+}
+button{
+  border: none; 
+  color: black;
+  padding: 12px; 
+  font-weight: 500;
+  font-size: 16px;
+  border-radius: 4px; 
+  background: #0A84FF;
+}
+
+.card{
+  background-color: #1A1A1A;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 14px;
+  padding: 48px; 
+}
+
+
+
